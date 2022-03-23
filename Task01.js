@@ -9,4 +9,4 @@ const euro = +prompt('Евро');
     function Convertor(obmen) {
         return obmen * 1.2 * 73;
     }
-    console.log(Convertor(euro)+' рублей');
+    console.log(Convertor(euro) + ' рублей');
