@@ -4,12 +4,9 @@
 //Строка начинается с большой буквы, остальные буквы маленькие
 //Пример:  "привет Мир" => "Привет мир"
 
+var stroka = prompt('Введите текст');
     
-    const euro = +prompt('Евро');
-    
-    Convertor(euro);
-    function Convertor(euro) {
-        const zxc=euro * 1.2 * 73;
-        console.log(zxc);
-        //console.log(euro + ' евро = ', euro * 1.2 * 73, ' рублей');
-    };
+    function myFunction(str) {
+        return str[0].toUpperCase() + str.slice(1);
+    }   
+    alert(myFunction(stroka.toLowerCase()));
