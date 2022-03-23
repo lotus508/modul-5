@@ -5,14 +5,9 @@
 //Пример:  "привет Мир" => "Привет мир"
 
     
-const euro = +prompt('Евро');
-//const Convertor = (euro) >= {
-//    euro = euro * 1.2 * 73, ' рублей');
-//    return euro;
-//}
-
+    const euro = +prompt('Евро');
+    
     Convertor(euro);
-
     function Convertor(euro) {
         const zxc=euro * 1.2 * 73;
         console.log(zxc);
